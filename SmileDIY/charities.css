@@ -1,0 +1,50 @@
+*
+{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: #f0faff;
+  font-family: 'Alegreya Sans', sans-serif;
+  color: #596164
+
+}
+
+
+.header
+{
+  height: 172px;
+  padding: 50px;
+  text-align: center;
+}
+
+.title
+{
+  font-size: 40px;
+  border: 3px solid #596164;
+  width: 414px;
+  height: 55px;
+  margin: 20px auto;
+}
+
+.navigation
+{
+  font-size: 17px;
+  margin: 20px auto;
+  height: 29px;
+  width: 980px;
+}
+
+a
+{
+  font-size: 25px;
+  margin: 15px;
+  text-decoration: none;
+}
+
+.column
+{
+  float: left;
+  width: 33.33%;
+  text-align: center;
+  margin-top: 45px;
+}
