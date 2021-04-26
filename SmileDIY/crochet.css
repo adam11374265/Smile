@@ -6,10 +6,6 @@
   font-family: 'Alegreya Sans', sans-serif;
 }
 
-body
-{
-  background-color: #f0faff;
-}
 .header
 {
   height: 172px;
@@ -25,14 +21,17 @@ body
   width: 414px;
   height: 55px;
   margin: 20px auto;
+  text-align: center;
+  background-color: #f0faff;
 }
 
-.navigation
+.nav
 {
   font-size: 17px;
   margin: 20px auto;
   height: 29px;
   width: 980px;
+  background-color: #f0faff;
 }
 
 a
@@ -42,78 +41,132 @@ a
   text-decoration: none;
 }
 
-.boxOne
+a:hover
 {
-    height:378px;
-    width: 980px;
-    margin: 0 auto;
-    background-color: #ffffff;
-    border: 1px solid #596164;
+  text-decoration: underline;
+}
+
+body
+{
+  background-color: #f0faff;
+}
+
+.firstBox
+{
+  height:378px;
+  width: 980px;
+  margin: 0 auto;
+  padding: 10px;
+  border-bottom: 1px solid #596164;
+  position: relative;
+  top: -330px;
+  background-color: #f0faff;
+
 }
 
 
-#TitleOne
+.box
+{
+  height:378px;
+  width: 980px;
+  margin: 0 auto;
+  border-bottom: 1px solid #596164;
+
+}
+
+.solution
+{
+  margin-top: 100px;
+  padding-left: 100px;
+}
+
+.bottom
+{
+    position: relative;
+    top: -300px;
+
+}
+
+#firstTitle
 {
   width: 750px;
   height: 68px;
   text-align: left;
+  font-weight: 900;
   font-size: 56px;
-  margin: 30px auto;
-  background-color: #ffffff;
-  /*border: 3px solid red;*/
-
 }
 
-#contentOne
+#firstContent
 {
   width: 750px;
   height: 54px;
   text-align: left;
   font-size: 20px;
-  margin: 0 auto;
-  background-color: #ffffff;
 }
 
-.boxTwo
-{
-    height:378px;
-    width: 980px;
-    margin: 0 auto;
-    background-color: white;
-    border: 1px solid #596164
-}
-
-#numTwo
+#num
 {
   width: 200px;
   height: 37px;
-  background-color: white;
+  font-weight: 900;
+  font-size: 25px;
 }
-#titleTwo
+
+#title
 {
   width: 401px;
   height: 37px;
-  background-color: white;
+  font-weight: 900;
+  font-size: 30px;
 }
-.contentTwo
+
+#start
+{
+    width: 401px;
+    height: 37px;
+    font-weight: 900;
+    font-size: 30px;
+    margin: 0px;
+}
+
+
+#link
+{
+
+    width: 401px;
+    height: 37px;
+    font-weight: 900;
+    font-size: 30px;
+    text-decoration: none;
+}
+
+.content
 {
   width: 401px;
   height: 196px;
   font-size: 16px;
-  background-color: white;
-  line-height: 2;
 }
 
-.floatTwo
+.rightFloat
 {
   float: right;
   padding: 50px;
-  background-color: white;
 }
 
-#imageTwo
+.leftFloat
+{
+  float: left;
+  padding: 50px;
+}
+
+#leftImage
+{
+  padding: 47px;
+  float: left;
+}
+
+#rightImage
 {
   padding: 47px;
   float: right;
-  background-color: white;
 }

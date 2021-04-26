@@ -2,7 +2,6 @@
 {
   margin: 0;
   padding: 0;
-  background-color: #f0faff;
   color: #596164;
   font-family: 'Alegreya Sans', sans-serif;
 }
@@ -12,6 +11,7 @@
   height: 172px;
   padding: 50px;
   text-align: center;
+  background-color: #f0faff;
 }
 
 .title
@@ -22,14 +22,16 @@
   height: 55px;
   margin: 20px auto;
   text-align: center;
+  background-color: #f0faff;
 }
 
-.navigation
+.nav
 {
   font-size: 17px;
   margin: 20px auto;
   height: 29px;
   width: 980px;
+  background-color: #f0faff;
 }
 
 a
@@ -37,4 +39,110 @@ a
   font-size: 25px;
   margin: 15px;
   text-decoration: none;
+}
+
+body
+{
+  background-color: #f0faff;
+}
+
+.bottom
+{
+  position: relative;
+  top: -300px;
+}
+
+.firstBox
+{
+  height:378px;
+  width: 980px;
+  margin: 0 auto;
+  border-bottom: 1px solid #596164;
+  position: relative;
+  top: -30px;
+  background-color: #f0faff;
+  padding: 10px;
+}
+
+.box
+{
+  height:378px;
+  width: 980px;
+  margin: 0 auto;
+  border-bottom: 1px solid #596164;
+}
+
+.solution
+{
+  margin-top: 100px;
+  padding-left: 100px;
+}
+
+#firstTitle
+{
+  width: 750px;
+  height: 68px;
+  text-align: left;
+  font-weight: 900;
+  font-size: 56px;
+}
+
+#firstContent
+{
+  width: 750px;
+  height: 54px;
+  text-align: left;
+  font-size: 20px;
+  line-height: 4;
+}
+
+#num
+{
+  width: 200px;
+  height: 37px;
+  font-weight: 900;
+  font-size: 25px;
+}
+
+
+
+.link
+{
+
+    width: 105px;
+    height: 37px;
+    font-weight: 900;
+    font-size: 30px;
+}
+
+.content
+{
+  width: 401px;
+  height: 196px;
+  font-size: 16px;
+  line-height: 2
+}
+
+.rightFloat
+{
+  float: right;
+  padding: 50px;
+}
+
+.leftFloat
+{
+  float: left;
+  padding: 50px;
+}
+
+#leftImage
+{
+  padding: 47px;
+  float: left;
+}
+
+#rightImage
+{
+  padding: 47px;
+  float: right;
 }

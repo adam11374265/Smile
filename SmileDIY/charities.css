@@ -3,18 +3,33 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  background-color: #f0faff;
+  background-color: white;
   font-family: 'Alegreya Sans', sans-serif;
-  color: #596164
-
+  background-color: #f0faff;
 }
 
+head
+{
+  background-color: #f0faff;
+  border: 7px solid pink;
+}
+
+li
+{
+  background-color: white;
+}
 
 .header
 {
   height: 172px;
   padding: 50px;
   text-align: center;
+  background-color: #f0faff;
+}
+
+#smile
+{
+  background-color: #f0faff;
 }
 
 .title
@@ -24,6 +39,7 @@
   width: 414px;
   height: 55px;
   margin: 20px auto;
+  background-color: #f0faff;
 }
 
 .navigation
@@ -32,6 +48,7 @@
   margin: 20px auto;
   height: 29px;
   width: 980px;
+  background-color: #f0faff;
 }
 
 a
@@ -39,12 +56,91 @@ a
   font-size: 25px;
   margin: 15px;
   text-decoration: none;
+  background-color: white;
+}
+
+
+#firstTitle
+{
+  font-weight: 900;
+  font-size: 56px;
+  background-color: white;
+  margin: 15px;
+}
+
+#firstText
+{
+  margin: 15px;
+  background-color: white;
+}
+
+#subTitle
+{
+  margin: 15px;
+  font-weight: bold;
+  background-color: white;
 }
 
 .column
 {
-  float: left;
+  float: right;
   width: 33.33%;
+  background-color: white;
   text-align: center;
-  margin-top: 45px;
+  border: 3px solid purple;
+}
+
+#links
+{
+    margin: 10px;
+    background-color: white;
+    font-weight: bold;
+    background-color: white;
+    border: 3px solid blue;
+}
+
+.box
+{
+  width: 980px;
+  margin: 0 auto;
+  background-color: white;
+  border: 3px solid red;
+
+}
+
+.list
+{
+  background-color: white;
+  margin: 15px;
+  border: 3px solid blue;
+}
+
+#description
+{
+    background-color: white;
+    border: 3px solid blue;
+}
+
+.links
+{
+    background-color: white;
+    border: 3px solid blue;
+}
+
+e
+{
+  background-color: white;
+  font-size: 25px;
+  border: 3px solid blue;
+}
+
+.image
+{
+  border: 3px solid yellow;
+}
+
+body
+{
+  background-color: purple;
+  /*border: 7px solid brown;*/
 }
