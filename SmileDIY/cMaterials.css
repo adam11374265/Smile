@@ -63,7 +63,7 @@ a:hover
   text-align: center;
   background-color: white;
   color: #292929;
-  padding-top: 35px; 
+  padding-top: 35px;
 }
 
 .content
@@ -71,6 +71,7 @@ a:hover
   font-size: 20px;
   padding: 10px 116px;
   background-color: white;
+  color: black;
 }
 
 #hooksChart
@@ -83,9 +84,11 @@ a:hover
 li
 {
   background-color: white;
+    color: black; 
 }
 
 #text
 {
   background-color: white;
+    color: black;
 }

@@ -1,18 +1,12 @@
 *
 {
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
-  color: #596164;
   font-family: 'Alegreya Sans', sans-serif;
-    position: relative;
-}
-
-.header
-{
-  height: 172px;
-  padding: 50px;
-  text-align: center;
   background-color: #f0faff;
+  text-decoration: none;
+  color: #596164;
 }
 
 .title
@@ -21,79 +15,103 @@
   border: 3px solid #596164;
   width: 414px;
   height: 55px;
-  margin: 20px auto;
+  margin-top: 70px;
+  margin-left: auto;
+  margin-right: auto;
   text-align: center;
-  background-color: #f0faff;
 }
 
-.nav
+.navigation
 {
   font-size: 17px;
-  margin: 20px auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 100px;
   height: 29px;
   width: 980px;
-  background-color: #f0faff;
+  text-align: center;
 }
 
-a
+#navLinks
 {
+  margin: 10px;
   font-size: 25px;
   margin: 15px;
-  text-decoration: none;
 }
 
-body
+a:hover
 {
-  background-color: #f0faff
+  text-decoration: underline;
 }
 
-#heading
+#title
 {
   background-color: #f0faff;
   width: 750px;
-  height: 95px;
   text-align: center;
-  margin: auto;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 40px;
+  padding-bottom: 40px;
   font-weight: 900;
   font-size: 56px;
-  border: 3px solid red;
   top: -100px;
+  color: #292929;
+  font-weight: bold;
+  font-size: 70px;
 
+}
+
+.TheBox
+{
+  width: 980px;
+  position: relative;
+  top: -330px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .box
 {
-  width: 980px;
-  height: 751px;
-  margin: auto;
-  margin-top: 40px;
-  margin-bottom: 90px;
+  height: 526px;
   background-color: #b5f3da;
   position: relative;
-  border: 3px solid red;
-}
+  margin-top: 30px;
 
-.bottom
-{
-  position: relative;
-  top: 0px;
-  border: 3px red solid; 
+
+
 }
 
 #image
 {
   position: absolute;
-  top: 0;
-  right: 0;
-  text-align: left;
+  top: 10px;
+  right: 10px;
 }
 
 #content
 {
-    width: 190px;
-    height: 252px;
-    font-size: 20px;
-    position: absolute;
-    bottom: 0;
-    left: 0;
+  width: 190px;
+  font-size: 20px;
+  background-color: #b5f3da;
+  color: #292929;
+  position: absolute;
+  margin-left: 120px;
+  margin-top: 30px;
+
+}
+
+#stichName
+{
+  background-color: #b5f3da;
+  transform: rotate(-90deg);
+  height: 58px;
+  width: 430px;
+  font-size: 40px;
+  color: #292929;
+  position: absolute;
+  margin-top: 215px;
+  margin-left: -150px;
+
 }

@@ -121,7 +121,7 @@ a:hover
 {
   width: 401px;
   font-size: 20px;
-  padding-top: 12px; 
+  padding-top: 12px;
   background-color: white;
 }
 
@@ -145,14 +145,12 @@ a:hover
 {
   margin: 56px;
   float: left;
-  background-color: white;
 }
 
 #rightImage
 {
   margin: 56px;
   float: right;
-  background-color: white
 }
 
 li
