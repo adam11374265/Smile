@@ -47,7 +47,7 @@ a:hover
 
 .firstBox
 {
-  height:378px;
+  height:446px;
   width: 100%;
   border-bottom: 1px solid #596164;
   padding-top: 70px;
@@ -56,9 +56,8 @@ a:hover
 
 .box
 {
-  height:378px;
+  height:446px;
   width: 980px;
-  margin: 0 auto;
   border-bottom: 1px solid #596164;
   background-color: white;
 }
@@ -98,8 +97,6 @@ a:hover
 }
 #num
 {
-  width: 200px;
-  height: 37px;
   font-weight: 900;
   font-size: 25px;
   background-color: white;
@@ -108,61 +105,54 @@ a:hover
 #title
 {
   width: 401px;
-  height: 37px;
   font-weight: 900;
   font-size: 30px;
   background-color: white;
 }
 
-
 #link
 {
-  width: 105px;
-  height: 37px;
   font-weight: bold;
   font-size: 30px;
-  background-color: white;
-}
-
-#contentBox
-{
   background-color: white;
 }
 
 .content
 {
   width: 401px;
-  height: 196px;
-  font-size: 16px;
+  font-size: 20px;
+  padding-top: 12px; 
   background-color: white;
 }
 
 .rightFloat
 {
   float: right;
-  padding: 50px;
   background-color: white;
+  margin-top: 56px;
+  margin-right: 56px;
 }
 
 .leftFloat
 {
   float: left;
-  padding: 50px;
   background-color: white;
+  margin-top: 56px;
+  margin-left: 56px;
 }
 
 #leftImage
 {
-  padding: 47px;
+  margin: 56px;
   float: left;
   background-color: white;
 }
 
 #rightImage
 {
-  padding: 47px;
+  margin: 56px;
   float: right;
-  background-color: white;
+  background-color: white
 }
 
 li
