@@ -1,0 +1,153 @@
+*
+{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Alegreya Sans', sans-serif;
+  background-color: #f0faff;
+  text-decoration: none;
+  color: #596164;
+}
+
+.title
+{
+  font-size: 40px;
+  border: 3px solid #596164;
+  width: 414px;
+  height: 55px;
+  margin-top: 70px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.navigation
+{
+  font-size: 17px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 100px;
+  height: 29px;
+  width: 980px;
+  text-align: center;
+}
+
+#navLinks
+{
+  margin: 10px;
+  font-size: 25px;
+  margin: 15px;
+}
+
+a:hover
+{
+  text-decoration: underline;
+}
+
+#title
+{
+  background-color: #f0faff;
+  width: 750px;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  font-weight: 900;
+  font-size: 56px;
+  top: -100px;
+  color: #292929;
+  font-weight: bold;
+  font-size: 70px;
+
+}
+
+.TheBox
+{
+  width: 980px;
+  position: relative;
+  top: -330px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.box
+{
+  height: 526px;
+  background-color: #b5f3da;
+  position: relative;
+  margin-top: 30px;
+
+
+
+}
+
+#image
+{
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+#content
+{
+  width: 190px;
+  font-size: 20px;
+  background-color: #b5f3da;
+  color: #292929;
+  position: absolute;
+  margin-left: 120px;
+  margin-top: 30px;
+
+}
+
+#floatContent
+{
+  font-size: 20px;
+  background-color: #b5f3da;
+  width: 625px;
+  height: 352px;
+  margin-top: 174px;
+}
+
+#stichName
+{
+  background-color: #b5f3da;
+  transform: rotate(-90deg);
+  height: 58px;
+  width: 430px;
+  font-size: 40px;
+  color: #292929;
+  position: absolute;
+  margin-top: 215px;
+  margin-left: -150px;
+
+}
+
+#leftImage
+{
+  margin: 56px;
+  float: left;
+  background-color: white;
+}
+
+#floatContent
+{
+  margin: 55px;
+  float: right;
+  background-color: #b5f3da;
+  width: 378px;
+  height: 283px;
+}
+
+#content
+{
+  background-color: #b5f3da;
+}
+
+#list
+{
+  margin-top: 20px;
+  background-color: #b5f3da;
+}

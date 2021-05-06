@@ -145,6 +145,7 @@ a:hover
 {
   margin: 56px;
   float: left;
+  background-color: white; 
 }
 
 #rightImage

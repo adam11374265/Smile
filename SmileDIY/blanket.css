@@ -1,0 +1,103 @@
+*
+{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Alegreya Sans', sans-serif;
+  background-color: #f0faff;
+  text-decoration: none;
+  color: #596164;
+}
+
+.title
+{
+  font-size: 40px;
+  border: 3px solid #596164;
+  width: 414px;
+  height: 55px;
+  margin-top: 70px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+#smile
+{
+  background-color: #f0faff;
+}
+
+.navigation
+{
+  font-size: 17px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 100px;
+  height: 29px;
+  width: 980px;
+  text-align: center;
+}
+
+#navLinks
+{
+  margin: 10px;
+  font-size: 25px;
+  margin: 15px;
+}
+
+a:hover
+{
+  text-decoration: underline;
+}
+
+.TheBox
+{
+  width: 980px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  top: -330px;
+  background-color: white;
+  padding: 50px;
+  font-size: 20px;
+}
+
+#heading
+{
+  font-weight: bold;
+  font-size: 70px;
+  text-align: center;
+  background-color: white;
+  color: #292929;
+}
+
+#spaceBetween
+{
+  margin-top: 20px;
+
+}
+
+#spaceBetweenBold
+{
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+p
+{
+  background-color: white;
+}
+
+#secondImage
+{
+  position: absolute;
+  top: 310px;
+  right: 150px;
+}
+
+#thirdImage
+{
+  position: absolute;
+  bottom: 300px;
+  right: 150px;
+}
